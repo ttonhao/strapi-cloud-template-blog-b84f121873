@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_slider_sections",
+  "info": {
+    "displayName": "Slider Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "displayName": "Slide Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.slide-item",
+      "required": true
+    }
+  }
+}

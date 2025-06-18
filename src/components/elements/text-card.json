@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_text_cards",
+  "info": {
+    "displayName": "Text Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_text_sections",
+  "info": {
+    "displayName": "Text Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "Text Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.text-card"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.button"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

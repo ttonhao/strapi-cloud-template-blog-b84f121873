@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_elements_slide_items",
+  "info": {
+    "displayName": "Slide Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    },
+    "card": {
+      "displayName": "Slide Card",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.slide-card"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

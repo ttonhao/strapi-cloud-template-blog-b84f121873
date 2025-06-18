@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_cards_sections",
+  "info": {
+    "displayName": "Cards Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "displayName": "Feature Card Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-card-item"
+    }
+  }
+}
